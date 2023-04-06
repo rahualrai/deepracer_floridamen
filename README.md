@@ -1,5 +1,5 @@
 # Deepracer_FloridaMen
-I participated in the AWS hosted DeepRacer competition at Howard University and was thrilled to win first place! This is a brief desription of the approach that I used to train my DeepRacer model and the reward function and hyperparameters that I used.
+I participated in the AWS hosted DeepRacer competition at Howard University and was thrilled to win first place! I trained a DeepRacer model to autonomously navigate a track and stay on the correct path. This is a brief desription of the approach that I used to train my DeepRacer model and the reward function and hyperparameters that I used.
 
 
 ## Reward Function
@@ -24,7 +24,9 @@ The hyperparameters used for this DeepRacer setup are:
 The minimum and maximum speeds for the car are set to 1.1 and 2.0, respectively. Additionally, the car is given an angle control of -30 to 30 degrees.
 
 
-## Conclusion
-Using my reward function and hyperparameters, my DeepRacer model was able to learn to follow the track and stay on the correct path, resulting in winning first place in the competition. I am proud of the work that I put into this project and grateful for the opportunity to learn more about reinforcement learning and robotics through the DeepRacer platform.
+## Results
+Using my reward function and hyperparameters, my DeepRacer model learned to follow the track and stay on the correct path, resulting in winning first place in the competition! You can see my model in action in the following YouTube video:
 
-![Leaderboard](leaderboard.jpg)
+[![Watch the Video of my Model in Action](leaderboard.jpg)](https://youtu.be/nHD-ifZz1SU)
+
+I'm proud of the work that I put into this project and grateful for the opportunity to learn more about reinforcement learning and robotics through the DeepRacer platform. A big shoutout to Queen for the epic music that fueled my all-nighters and filename inspirations.
