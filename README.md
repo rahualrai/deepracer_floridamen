@@ -27,6 +27,6 @@ The minimum and maximum speeds for the car are set to 1.1 and 2.0, respectively.
 ## Results
 Using my reward function and hyperparameters, my DeepRacer model learned to follow the track and stay on the correct path, resulting in winning first place in the competition! You can see my model in action in the following YouTube video:
 
-https://youtu.be/nHD-ifZz1SU
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nHD-ifZz1SU/0.jpg)](https://www.youtube.com/watch?v=nHD-ifZz1SU)
 
 I'm proud of the work that I put into this project and grateful for the opportunity to learn more about reinforcement learning and robotics through the DeepRacer platform. A big shoutout to Queen for the epic music that fueled my all-nighters and filename inspirations.
