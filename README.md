@@ -25,7 +25,7 @@ The minimum and maximum speeds for the car are set to 1.1 and 2.0, respectively.
 
 
 ## Results
-Using my reward function and hyperparameters, my DeepRacer model learned to follow the track and stay on the correct path, resulting in winning first place in the competition! You can see my model in action in the following YouTube video:
+Using my reward function and hyperparameters, my DeepRacer model learned to follow the track and stay on the correct path, resulting in winning first place in the competition! You can see my model in action in the following YouTube video: (click the picture to play the video)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nHD-ifZz1SU/0.jpg)](https://www.youtube.com/watch?v=nHD-ifZz1SU)
 
