@@ -1,1 +1,30 @@
-# deepracer_floridamen
+# Deepracer_FloridaMen
+I participated in the AWS hosted DeepRacer competition at Howard University and was thrilled to win first place! This is a brief desription of the approach that I used to train my DeepRacer model and the reward function and hyperparameters that I used.
+
+
+## Reward Function
+The `I_Want_to_Break_Free.py` reward function prioritizes staying on the track and following the correct direction. The function calculates the track direction based on the closest waypoints, and compares it to the heading of the car. If the direction difference is greater than 10 degrees, the reward is halved. Otherwise, the reward is set to 1.0.
+
+
+## Hyperparameters
+The hyperparameters used for this DeepRacer setup are:
+
+```json
+{
+    "batch_size": 64,
+    "beta_entropy": 0.01,
+    "discount_factor": 0.888,
+    "loss_type": "huber",
+    "lr": 0.0003,
+    "num_episodes_between_training": 18,
+    "num_epochs": 4
+}
+```
+
+The minimum and maximum speeds for the car are set to 1.1 and 2.0, respectively. Additionally, the car is given an angle control of -30 to 30 degrees.
+
+
+## Conclusion
+Using my reward function and hyperparameters, my DeepRacer model was able to learn to follow the track and stay on the correct path, resulting in winning first place in the competition. I am proud of the work that I put into this project and grateful for the opportunity to learn more about reinforcement learning and robotics through the DeepRacer platform.
+
+![Leaderboard](deepracer_floridamen\leaderboard.HEIC)
