@@ -3,7 +3,7 @@ I participated in the AWS hosted DeepRacer competition at Howard University and 
 
 
 ## Reward Function
-The `I_Want_to_Break_Free.py` reward function prioritizes staying on the track and following the correct direction. The function calculates the track direction based on the closest waypoints, and compares it to the heading of the car. If the direction difference is greater than 10 degrees, the reward is halved. Otherwise, the reward is set to 1.0.
+The `I_Want_to_Break_Free.py` reward function prioritizes staying on the track, following the correct direction, and being close to the center of the track. The function calculates the track direction based on the closest waypoints, and compares it to the heading of the car. If the direction difference is greater than 10 degrees, the reward is halved. Otherwise, the reward is set to 1.0. Additionally, the reward is increased by the distance from the center of the track, with a maximum value of 1.0 when the car is perfectly centered on the track.
 
 
 ## Hyperparameters
