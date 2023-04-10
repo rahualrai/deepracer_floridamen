@@ -4,6 +4,7 @@ def reward_function(params):
     waypoints = params['waypoints']
     closest_waypoints = params['closest_waypoints']
     heading = params['heading']
+    distance_from_center = params['distance_from_center']
     
     reward = 1.0
     
@@ -21,5 +22,7 @@ def reward_function(params):
     
     if direction_diff > 10.0:
         reward *= 0.5
+        
+    reward += (1 - distance_from_center)
     
     return float(reward)
