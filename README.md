@@ -31,4 +31,4 @@ Using my reward function and hyperparameters, my DeepRacer model learned to foll
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nHD-ifZz1SU/0.jpg)](https://www.youtube.com/watch?v=nHD-ifZz1SU)
 
-I'm proud of the work that I put into this project and grateful for the opportunity to learn more about reinforcement learning and robotics through the DeepRacer platform. A big shoutout to Queen for the epic music that fueled my all-nighters and filename inspirations.
+I'm proud of the work that I put into this project and grateful for the opportunity to learn more about reinforcement learning and robotics through the DeepRacer platform. A big shoutout to Queen for the epic music that fueled my drive and filename inspirations.
